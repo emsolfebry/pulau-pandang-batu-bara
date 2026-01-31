@@ -1,0 +1,118 @@
+01.31 20:39
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Resmi Desa Wisata Pulau Pandang</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 120px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0a6d6a;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #0a6d6a;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #f4f4f4;
+      margin: 10px 0;
+      padding: 15px;
+      border-left: 5px solid #0a6d6a;
+    }
+    footer {
+      background: #0a6d6a;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Desa Wisata Pulau Pandang</h1>
+  <p>Website Resmi Pemerintah Desa Pulau Pandang</p>
+</header>
+
+<nav>
+  <a href="#profil">Profil Desa</a>
+  <a href="#potensi">Potensi Desa</a>
+  <a href="#wisata">Wisata</a>
+  <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="profil">
+  <h2>Profil Desa</h2>
+  <p>
+    Desa Pulau Pandang merupakan desa pesisir dengan potensi wisata bahari,
+    budaya lokal, serta masyarakat yang menjunjung tinggi nilai gotong royong.
+  </p>
+</section>
+
+<section id="potensi">
+  <h2>Potensi Desa</h2>
+  <p>
+    Potensi utama desa meliputi pariwisata bahari, perikanan,
+    dan ekonomi kreatif masyarakat lokal.
+  </p>
+</section>
+
+<section id="wisata">
+  <h2>Destinasi Wisata</h2>
+  <ul>
+    <li>️ Pantai Pasir Putih Pulau Pandang</li>
+    <li> Snorkeling dan Diving Terumbu Karang</li>
+    <li> Wisata Sunrise dan Sunset</li>
+    <li>⛵ Wisata Perahu Nelayan</li>
+  </ul>
+</section>
+
+<section id="kontak">
+  <h2>Kontak Pemerintah Desa</h2>
+  <p style="text-align:center;">
+    Kantor Desa Pulau Pandang<br>
+    Email: desawisatapulaupandang@gmail.com<br>
+    Telepon: 08xxxxxxxxxx
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Pemerintah Desa Pulau Pandang</p>
+</footer>
+
+</body>
+</html>
